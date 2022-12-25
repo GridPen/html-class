@@ -1,0 +1,25 @@
+#header a {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.939);
+}
+#header a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.text-area {
+  border: 1px wheat solid;
+  padding: 10px;
+  border-radius: 0 10px 10px 10px;
+  background: rgb(192, 239, 255);
+  transition: all 300ms linear 0.25s;
+}
+
+.text-area:hover {
+  border-radius: 0 15px 15px 15px;
+  box-shadow: 2px 2px 5px rgba(20, 0, 64, 0.306);
+}
+
+.highlight {
+  background: rgba(0, 0, 0, 0.49);
+  color: aliceblue;
+}
